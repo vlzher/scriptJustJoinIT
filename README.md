@@ -2,4 +2,4 @@ The script, which shows technologies, which are needed in Wroclaw for FullStack 
 Using https://justjoin.it/
 
 The results for 24.03.2023:
-![img.png](img.png)
+![img_1.png](img_1.png)

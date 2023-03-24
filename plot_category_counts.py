@@ -2,9 +2,10 @@ import matplotlib.pyplot as plt
 
 
 def plot_category_counts(category_counts):
+    sorted_counts = sorted(category_counts.items(), key=lambda x: x[1], reverse=True)
     categories = []
     counts = []
-    for category, count in category_counts.items():
+    for category, count in sorted_counts:
         if count >= 7:
             categories.append(category)
             counts.append(count)
